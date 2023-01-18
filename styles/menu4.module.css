@@ -1,0 +1,33 @@
+.box {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 0 0 10px #CCC inset;
+  font-family: serif;
+  text-align: center;
+  width: 400px;
+}
+
+.box > .nav{
+  background: #753;
+  box-shadow: 0 0 10px #333 inset;
+  padding: 10px;
+}
+
+.box > .nav > h1 {
+  color: #FFF;
+  margin: 0;
+  text-shadow: 0 -2px 0 #333;
+}
+
+.box > .style {
+  padding: 10px;
+}
+
+.box > .style > h2 {
+  font-size: 18px;
+}
+
+.box > .style > ul {
+  list-style-type: none;
+  padding: 0;
+}
